@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task 2 - Component Library</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="components-wrapper">
+    <!-- Component 1: Navigation Bar -->
+    <header class="navbar">
+      <div class="logo">LOGO</div>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">Contact Us with Extra Long Navigation Title</a></li>
+        </ul>
+      </nav>
+      <div class="nav-buttons">
+        <button class="btn btn-secondary">Log In</button>
+        <button class="btn btn-primary">Sign Up</button>
+      </div>
+    </header>
+
+    <!-- Component 2: Row of Cards -->
+    <section class="card-row">
+      <div class="card">
+        <h3>Card Title 1</h3>
+        <p>Short item description.</p>
+        <button class="btn btn-primary card-btn">Buy Now</button>
+      </div>
+      <div class="card">
+        <h3>Card Title 2</h3>
+        <p>A much longer description containing additional details to increase the height of this card. Despite the text length, the action button at the bottom stays perfectly aligned with the neighboring cards!</p>
+        <button class="btn btn-primary card-btn">Buy Now</button>
+      </div>
+      <div class="card">
+        <h3>Card Title 3</h3>
+        <p>Medium-length description to demonstrate flexible layouts without any fixed height constraints.</p>
+        <button class="btn btn-primary card-btn">Buy Now</button>
+      </div>
+    </section>
+
+    <!-- Component 3: Pagination Bar -->
+    <div class="pagination-bar">
+      <button class="btn btn-secondary">&laquo; Previous</button>
+      <div class="page-numbers">
+        <span class="page active">1</span>
+        <span class="page">2</span>
+        <span class="page">3</span>
+      </div>
+      <button class="btn btn-secondary">Next &raquo;</button>
+      <div class="result-count">Showing 1-10 of 50 results</div>
+    </div>
+
+    <!-- Component 4: Comment Block -->
+    <div class="comment-block">
+      <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?w=100" alt="Avatar" class="avatar">
+      <div class="comment-content">
+        <h4 class="comment-author">Alex Smith</h4>
+        <p class="comment-text">This is a user comment. Built using Flexbox, the content wraps gracefully alongside the avatar image and never slides under it, keeping alignment intact.</p>
+      </div>
+    </div>
+
+    <!-- Component 5: Pricing Table -->
+    <section class="pricing-table">
+      <div class="price-card">
+        <h3>Basic</h3>
+        <p class="price">$10/mo</p>
+        <p>Access to core features.</p>
+        <button class="btn btn-secondary">Choose Plan</button>
+      </div>
+      <div class="price-card featured">
+        <span class="badge">Recommended</span>
+        <h3>Pro</h3>
+        <p class="price">$25/mo</p>
+        <p>All features included, priority support, and advanced options.</p>
+        <button class="btn btn-primary">Choose Plan</button>
+      </div>
+      <div class="price-card">
+        <h3>Enterprise</h3>
+        <p class="price">$50/mo</p>
+        <p>For teams and corporate clients.</p>
+        <button class="btn btn-secondary">Choose Plan</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
